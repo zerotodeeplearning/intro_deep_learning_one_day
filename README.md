@@ -5,7 +5,7 @@ Next in-person Bootcamp: 3-7 June, San Francisco. [Register here](https://bootca
 [![Build Status](https://travis-ci.org/zerotodeeplearning/intro_deep_learning_one_day.svg?branch=master)](https://travis-ci.org/zerotodeeplearning/intro_deep_learning_one_day)
 
 
-# TDWI Intro to Deep Learning
+# Intro to Deep Learning One Day Workshop
 
 Hands-on Introduction to Deep Learning with Python and Tensorflow
 
