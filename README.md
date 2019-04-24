@@ -89,18 +89,18 @@ wait for the environment to create, this may take a few minutes
 
 #### Activate the environment (Mac/Linux)
 ```
-conda activate ztdloneday
+conda activate ztdlbootcamp
 ```
 
 #### Activate the environment (Windows)
 ```
-activate ztdloneday
+activate ztdlbootcamp
 ```
 
 Check that your prompt changed to
 
 ```
-(ztdloneday) $
+(ztdlbootcamp) $
 ```
 
 Now you can run jupyter notebook from within the environment.
