@@ -12,5 +12,6 @@ dependencies:
 - pip==19.0.*
 - pytest==4.3.*
 - scipy==1.2.*
+- seaborn==0.9.*
 - pip:
   - tensorflow==2.0.0-alpha0
