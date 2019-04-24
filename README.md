@@ -23,6 +23,7 @@ Make sure to choose the **Python 3.7** version:
 
 ![](./assets/anaconda_download.png)
 
+> TIP: if you already have Anaconda installed with Python 3.6 instead of 3.7, that is ok too. You will still need to install tensorflow as explained below, and `pip` will install the version for python 3.6. Alternatively, you can create a new environment with Python 3.7 and all the required packages, also explained below.
 
 ### Obtain the code for this tutorial
 Next we are going to download the code for this tutorial, which is stored on Github. The following commands should be run from a terminal. Open a **Terminal** (Mac/Linux) or an **Anaconda prompt** (Windows). To obtain the code, clone this repository on your local computer. Type:
