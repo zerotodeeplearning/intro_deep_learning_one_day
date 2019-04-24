@@ -12,38 +12,52 @@ Hands-on Introduction to Deep Learning with Python and Tensorflow
 
 ## Quick start guide
 
-#### Download and Install Anaconda Python 3.7
+### Download and Install Anaconda Python 3.7
 
-The first step is to download and install Python 3 on your system, together with all the necessary libraries. Luckily for us Anaconda provides a convenient way to do so. Download and install it here:
+The first step is to download and install Python 3 on your system, together with all the necessary libraries. Luckily for us Anaconda provides a convenient way to do so. Download and install it from here:
 
-https://www.anaconda.com/download
-
-Next we are going to download the code and access the notebooks. The following commands should be run from a terminal.
+https://www.anaconda.com/distribution
 
 
-#### Install Tensorflow
+Make sure to choose the **Python 3.7** version:
 
-There are 2 ways to do this:
+![](./assets/anaconda_download.png)
 
-1) from the Anaconda package manager choose Tensorflow and install it
-2) open an Anaconda prompt and type `conda install tensorflow`
 
-#### Clone this repository on your local computer
+### Obtain the code for this tutorial
+Next we are going to download the code for this tutorial, which is stored on Github. The following commands should be run from a terminal. Open a **Terminal** (Mac/Linux) or an **Anaconda prompt** (Windows). To obtain the code, clone this repository on your local computer. Type:
 ```
 git clone https://github.com/zerotodeeplearning/intro_deep_learning_one_day.git
 ```
+You can copy the full path from Github by clicking on the copy button:
 
-> TIP: If you are not familiar with git and github you can just download the zip file of the repository.
+![](./assets/github_download_1.png)
+
+> TIP: If you are not familiar with Git and Github you can just download the zip file of the repository.
+![](./assets/github_download_2.png)
+
 
 #### Change to course folder
-
+Once you have cloned or downloaded the code, make sure to change the current directory to the folder you've just downloaded, by typing:
 ```
 cd intro_deep_learning_one_day
 ```
 
-> TIP: If you downloaded the zip file and not the repo, your folder name will be `intro_deep_learning_one_day_master`, just cd into that one: `cd intro_deep_learning_one_day_master`
+> TIP: If you downloaded the zip file and not the repo, you will need to unzip it and then your folder will be named `intro_deep_learning_one_day_master`. Just change directory using that one: `cd intro_deep_learning_one_day_master`
 
-#### Launch Jupyter Notebook
+
+### Install Tensorflow
+Anaconda already contains all the packages we need, except for Tensorflow. Which we need to install. In the terminal type:
+```
+conda install tensorflow==1.13.*
+```
+and agree to the package install and updates requests.
+
+> TIP: If you prefer not to install Tensorflow in your base environment see instructions below for how to create a separate environment for this tutorial.
+
+![](./assets/install_tensorflow.png)
+
+### Launch Jupyter Notebook
 
 From the course folder, in the terminal, type:
 ```
@@ -64,32 +78,21 @@ You are good to go! Enjoy!
 
 
 
-### Instructions for Conda environment creation
 
-The following is not necessary if you have a recent version of Anaconda installed on your computer. If you want to create a virtual environment specifically for this tutorial, we provide an [environment configuration file](environment.yml). From the terminal follow these steps:
-
-#### Change to course folder
-
-```
-cd intro_deep_learning_one_day
-```
-
+### Optional: create a dedicated environment or the tutorial
+The following is not necessary for the tutorial. If you want to create a virtual environment specifically for this tutorial, we provide an [environment configuration file](environment.yml).
 #### Create the course environment
-
 ```
 conda env create
 ```
-
 wait for the environment to create, this may take a few minutes
 
 #### Activate the environment (Mac/Linux)
-
 ```
 conda activate ztdloneday
 ```
 
 #### Activate the environment (Windows)
-
 ```
 activate ztdloneday
 ```
@@ -101,7 +104,6 @@ Check that your prompt changed to
 ```
 
 Now you can run jupyter notebook from within the environment.
-
 
 
 ### Troubleshooting
