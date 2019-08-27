@@ -1,4 +1,4 @@
-## [Check our Zero To Deep Learning 5 day bootcamp. New dates are out!](https://www.zerotodeeplearning.com)
+## [Check our Zero To Deep Learning 5 day bootcamp. New dates are out!](https://www.zerotodeeplearning.com/?utm_source=github.com&utm_medium=affiliate&utm_campaign=https%3A%2F%2Fgithub.com%2Fzerotodeeplearning%2Fintro_deep_learning_one_day&utm_content=README.md)
 ------
 
 [![Build Status](https://travis-ci.org/zerotodeeplearning/intro_deep_learning_one_day.svg?branch=master)](https://travis-ci.org/zerotodeeplearning/intro_deep_learning_one_day)
