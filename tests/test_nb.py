@@ -23,3 +23,6 @@ def test_02():
 
 def test_03():
     _exec_notebook("Lab_03_Keras_Fully_Connected_Models.ipynb")
+
+def test_04():
+    _exec_notebook("Lab_04_Tensorflow_2.0.ipynb")

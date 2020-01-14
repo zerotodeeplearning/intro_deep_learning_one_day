@@ -47,9 +47,9 @@ cd intro_deep_learning_one_day
 
 
 ### Install Tensorflow
-Anaconda already contains all the packages we need, except for Tensorflow. Which we need to install. We will install the alpha version of Tensorflow 2.0. In the terminal type:
+Anaconda already contains all the packages we need, except for Tensorflow. Which we need to install. We will install the alpha version of Tensorflow 2.1.0 In the terminal type:
 ```
-pip install tensorflow==2.0.0-alpha0
+pip install tensorflow==2.1.0
 ```
 and agree to the package install and updates requests.
 
